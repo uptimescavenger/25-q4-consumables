@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import HomePage from "./pages/HomePage";
 import InventoryPage from "./pages/InventoryPage";
+import OrdersPage from "./pages/OrdersPage";
+import AutomationsPage from "./pages/AutomationsPage";
 
 export default function App() {
   return (
@@ -10,8 +12,9 @@ export default function App() {
         <Sidebar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/consumables" element={<InventoryPage />} />
-          <Route path="/consumables/catalog" element={<InventoryPage />} />
+          <Route path="/inventory" element={<InventoryPage />} />
+          <Route path="/orders" element={<OrdersPage />} />
+          <Route path="/automations" element={<AutomationsPage />} />
         </Routes>
       </div>
     </BrowserRouter>

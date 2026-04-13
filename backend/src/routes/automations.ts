@@ -1,6 +1,8 @@
 import { Router, Request, Response } from "express";
+import crypto from "crypto";
 import { automationRules, consumableItems, vendors } from "../data/mockData";
-import { v4 as uuidv4 } from "uuid";
+
+const uuidv4 = () => crypto.randomUUID();
 
 const router = Router();
 
