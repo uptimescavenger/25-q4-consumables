@@ -2,8 +2,8 @@ import { useEffect, useState, useCallback } from "react";
 import { api } from "../lib/api";
 import Header from "../components/Header";
 import {
-  Zap, Plus, Edit3, Trash2, Save, X, RefreshCw, TrendingDown,
-  Package, ChevronDown, ChevronUp, ToggleLeft, ToggleRight,
+  Zap, Edit3, Trash2, Save, X, RefreshCw, TrendingDown,
+  ChevronDown, ChevronUp, ToggleRight,
 } from "lucide-react";
 
 type RuleType = "all" | "threshold" | "recurring";

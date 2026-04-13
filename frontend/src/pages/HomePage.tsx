@@ -4,7 +4,7 @@ import { api } from "../lib/api";
 import Header from "../components/Header";
 import {
   Package, AlertTriangle, ShoppingCart, Zap, DollarSign,
-  TrendingUp, ArrowRight, Clock, CheckCircle2,
+  ArrowRight, Clock,
 } from "lucide-react";
 
 export default function HomePage() {

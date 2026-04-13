@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from "react-router-dom";
 import {
-  Home, Package, ShoppingCart, Zap, BarChart3,
+  Home, Package, ShoppingCart, Zap,
   MessageCircle, HelpCircle,
 } from "lucide-react";
 

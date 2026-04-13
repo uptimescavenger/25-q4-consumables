@@ -2,7 +2,7 @@ import { useEffect, useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { api } from "../lib/api";
 import Header from "../components/Header";
-import { Search, SlidersHorizontal, Minus, Plus, Edit3, Save, X, Package } from "lucide-react";
+import { Search, Minus, Plus, Edit3, Save, X, Package } from "lucide-react";
 
 type StatusFilter = "all" | "out_of_stock" | "low_quantity" | "in_stock" | "active_orders";
 
